@@ -1,28 +1,9 @@
 
-body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 14px;
-		
-      }
 	.inline-block {
 		display: inline-block;
 		zoom: 1;
 		*display: inline;
-	}
-	
-	  background {
-		background-image: url(bootstrap/naglowek.jpg);
-		background-size: 100%;
-		background-repeat: no-repeat center ;
-		background-attachment: scroll;
-		background-position: center top;
-		width:100%;
-		height:100%;
-		margin-bottom: 2px;
-		opacity: 0.2;
-	}
+         }
 	.pull-left {
 	float: left;
 	}
@@ -34,31 +15,17 @@ body {
 	  color: blue;
 	  }
 	
+	 form {
+         background-color: white;
+         border: 2px orange solid;
+         }
 	 
-	 fieldset {
-	
-	 border: 2px orange solid;
-	 padding: 4px;
-	 }
 	 legend {
 	 background-color: orange;
-	 border: 2px orange solid;
-	 margin:2px;
-	 padding: 4px;
 	 text-align: center;
 	
 	 }
-	 .clearfix {
-	*zoom: 1;
-	&:before,
-	&:after {
-	display: table;
-	content: "";
-	}
-	&:after {
-	clear: both;
-	}
-	}
+	 
 	 thumbnails img{
 		position: relative;
 		display: inline-block;
